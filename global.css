@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(222, 226, 225);
+  font-family: Rubik, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333333;
+}
+p {
+  color: #666666;
+}
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 28px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  padding: 0 120px;
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 0 16px;
+  }
+  .menu-title {
+    display: none;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .container {
+    padding: 0 20px;
+  }
+  .menu-title {
+    display: none;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+  .menu-title {
+    display: none;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1152px) {
+  .container {
+    padding: 0 96px;
+  }
+  .menu-title {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 120px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    padding: 0 200px;
+  }
+}
